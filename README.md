@@ -4,17 +4,17 @@
 
   **a)** Cuando ninguno de los objetos es físico, no se aprecia nada, los objetos se mantienen estáticos y no interaccionan.
   
-  **b)**En cambio, si le añadimos físicas a la esfera, podemos ver como esta si interacciona, por ejemplo, si la elevamos vemos como la gravedad actúa sobre ella, pero sigue sin interaccionar con el cubo.
+  **b)** En cambio, si le añadimos físicas a la esfera, podemos ver como esta si interacciona, por ejemplo, si la elevamos vemos como la gravedad actúa sobre ella, pero sigue sin interaccionar con el cubo.
   
-  **c)**Seguidamente, al añadir físicas a ambos GameObjects, estos si interaccionan, por ejemplo, si la esfera se sitíua sobre el cubo, esta rebota al caer sobre este.
+  **c)** Seguidamente, al añadir físicas a ambos GameObjects, estos si interaccionan, por ejemplo, si la esfera se sitíua sobre el cubo, esta rebota al caer sobre este.
   
-  **d)**Si aumentamos la masa de la esfera y repetimos el dejarla caer sobre el cubo, vemos como el cubo tiembla al colisionar con la esfera.
+  **d)** Si aumentamos la masa de la esfera y repetimos el dejarla caer sobre el cubo, vemos como el cubo tiembla al colisionar con la esfera.
   
-  **e)**Si hacemos que el cubo sea de tipo Is Trigger, entonces pierde sus físicas de colisión, por lo que la esfera atraviesa el cubo, aunque podemos ver cuando entra en primer contacto y cuando se mantiene en contacto por medio de OnTriggerEnter y OntriggerStay respectivamente.
+  **e)** Si hacemos que el cubo sea de tipo Is Trigger, entonces pierde sus físicas de colisión, por lo que la esfera atraviesa el cubo, aunque podemos ver cuando entra en primer contacto y cuando se mantiene en contacto por medio de OnTriggerEnter y OntriggerStay respectivamente.
   
-  **f)**Si ahora hacemos que el cubo sea un rigidbody, entonces se escapa del plano, pues al no colisionar, lo atraviesa.
+  **f)** Si ahora hacemos que el cubo sea un rigidbody, entonces se escapa del plano, pues al no colisionar, lo atraviesa.
   
-  **g)**Aparentemente, el cubo no reacciona, pues al ahberle congelado la rotación, este no puede temblar al recibir el impacto de la esfera.
+  **g)** Aparentemente, el cubo no reacciona, pues al ahberle congelado la rotación, este no puede temblar al recibir el impacto de la esfera.
   
   
 #### Ejercicio 2. Observaciones
